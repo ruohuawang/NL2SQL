@@ -35,7 +35,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
 
 ### 2. unsloth-grpo.py
 
-This script implements Group Relative Policy Optimization (GRPO), a reinforcement learning approach that doesn't require separate reward and policy models.
+This script implements Group Relative Policy Optimization (GRPO), a reinforcement learning approach with outcome-based and rule-based rewards that doesn't require separate reward and value models.
 
 **Key components:**
 - Model initialization with DeepSeek-Distill-Qwen-1.5b-math
